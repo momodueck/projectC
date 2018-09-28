@@ -1,0 +1,40 @@
+#main_logo{
+  height: auto;
+  width: 60%;
+  max-width: 400px;
+}
+
+.content{
+  padding: 0px 20px;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+  margin: auto;
+}
+
+#results{
+  margin-top: 30px;
+  padding 0 10px;
+}
+
+.search_item_p{
+  border-bottom: 1px solid black;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 15px;
+}
+
+.search_item_p:last-of-type{
+  border-bottom: none;
+}
+
+#add_p{
+  text-align:center;
+  padding: 10px;
+}
+
+#add_div{
+  position: absolute;
+  width: 100%;
+  margin: auto;
+}

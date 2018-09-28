@@ -1,0 +1,21 @@
+textarea {
+    resize: none;
+}
+
+.center {
+    text-align: center;
+}
+
+form {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+
+.btn-img {
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    right: 10%;
+}
