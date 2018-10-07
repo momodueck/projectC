@@ -205,7 +205,7 @@ updateScreen(position);
 
 function isSongValid(){
   for (var i = 0; i < song.tabs.length; i++) {
-    if(song.tabs[i].chords.length==0){
+    if(song.tabs[i].chords == undefined || song.tabs[i].chords.length==0){
       updateScreen(i);
       return false;
     }
